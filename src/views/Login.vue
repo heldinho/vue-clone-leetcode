@@ -1,9 +1,14 @@
 <template>
   <div class="box-login">
     <div class="mb-5">
-      <img
+      <!-- <img
         src="https://assets.leetcode.com/static_assets/public/webpack_bundles/images/logo.c36eaf5e6.svg"
         alt=""
+      /> -->
+      <img
+        src="http://brm1.com.br/images/brm1-logo-black.png"
+        alt="BRM1"
+        width="170"
       />
     </div>
     <div class="form-group">
