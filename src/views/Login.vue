@@ -103,7 +103,6 @@ export default {
   box-shadow: 0px 0px 8px 0px #ccc;
   padding: 50px;
   text-align: center;
-  width: 100%;
   max-width: 500px;
   margin: 50px auto;
   border-radius: 8px;
@@ -111,5 +110,15 @@ export default {
 }
 .form-check-label {
   cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .box-login {
+    margin: 0;
+    max-width: 100% !important;
+    height: 100vh !important;
+    box-shadow: none;
+    border-radius: 0px;
+  }
 }
 </style>
