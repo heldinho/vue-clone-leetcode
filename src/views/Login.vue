@@ -41,12 +41,12 @@
       </div>
     </div>
     <div class="form-group">
-      <button class="btn btn-dark btn-block">Entrar</button>
+      <button class="btn btn-dark btn-block" @click="fnLogin">Entrar</button>
     </div>
     <div class="d-flex justify-content-between aling-items-center">
-      <spsn class="btn btn-link m-0 p-0">
+      <span class="btn btn-link m-0 p-0">
         <span>Esqueceu a senha?</span>
-      </spsn>
+      </span>
       <span class="btn btn-link m-0 p-0">
         <span>Criar nova conta</span>
       </span>
@@ -93,6 +93,9 @@ export default {
         this.dtInputType = 'password'
         this.dtShowPassword = 'Mostrar'
       }
+    },
+    fnLogin() {
+      this.$router.push({ name: 'Home' })
     }
   }
 }
