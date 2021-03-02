@@ -16,5 +16,10 @@ body {
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
   background: #f1f1f1 !important;
+  #nav {
+    position: fixed;
+    top: 0;
+    margin: 0;
+  }
 }
 </style>
